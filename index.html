@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+<input type="button" value="кноп"
+onclick="hello();">
+<input type="button" value="кноп"
+onclick="pek();">
+<p id="cat"> как вставит рекламу</p>
+<script>
+var p = document.getElementById("cat");
+var color = 0;
+
+    function hello(){
+        color++;
+        p.innerHTML = color;
+    }
+
+    function pek(){
+        color--;
+        p.innerHTML = color;
+    }
+
+</script>
+    </body>
+</html>
